@@ -12,6 +12,7 @@
 
    ```bash
    pip install -r requirements.txt
+   ```
 
 2. Optionally, create and activate a virtual environment:
 
@@ -19,11 +20,12 @@
   python -m venv venv
   source venv/bin/activate  # Linux/macOS
   venv\Scripts\activate    # Windows
-
+   ```
 ## Usage
 1. Run the script using Python
   ```bash
   python main.py
+  ```
 2. The script will open an interface to upload a JPG or PNG image for processing.
 
 After processing, the JSON output file will be saved as feed.json, and the resulting text file will be saved as results.txt.
